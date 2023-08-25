@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><strong>Perfil del estudiante</strong></title>
+    
+</head>
+<body>
+    <div>
+        <main>
+            <h1>Foto de perfil</h1>
+        </main>
+        <img src="326256702_697715248703478_4637580518952090428_n.jpg" alt="Foto de Perfil" width="180" height="180"  onerror="this.remove()">
+        <br>
+        <ul>
+            <li> Nombre: Leonel</li>
+            <li>Apellido: Gómez Alé</li>
+            <li>Mail: leo_g_ale@hotmail.com.ar</li>
+        </ul>
+        <p> Soy estudiante en la "Tecnicatura Superior de Análisis y Desarrollo
+            de Software" <br> en la Ciuadad de gualeguay, y 
+            pactualmente estoy cursando el curso de Ondemand Full <br> 
+            que brinda NUCBA; tengo 31 años y soy oriundo de la Ciudad de Gualeguay, Entre Ríos.
+        </em></p>
+        <form action=""></form>
+    </div>
+    <form>
+        <fieldset>
+            <label for="nombre">Nombre </label><br/>
+            <input type="text" id="nombre" name="nombre" 
+                placeholder="Escribe tu nombre" required="true"/><br/>
+
+            <label for="email">Email</label><br/>
+            <input type="email" id="email" name="email"
+                placeholder="Escribe tu email" required="true"/><br/> 
+
+            <label for="telefono">Teléfono</label><br/>
+            <input type="tel" id="telefono" name="telefono" 
+                placeholder="Escribe tu teléfono"/><br/>
+
+            <label for="asunto">Asunto </label><br/>
+            <input type="text" id="asunto" name="asunto" 
+                placeholder="Escribe tu asunto" required="true"/><br/>
+
+            <label for="comentario">Comentario</label><br/>
+            <textarea id="comentario" name="comentario" rows="2" cols="30">
+            </textarea><br/>
+
+            <br/>
+            <input type="submit" value="Enviar"/>
+            <input type="submit" formnovalidate="formnovalidate" 
+                value="Enviar sin validar"/>
+        </fieldset>
+    </form>
+</body>
+</html>
